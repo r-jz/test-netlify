@@ -1,0 +1,6 @@
+[build]
+  # Netlify が deploy 前に実行する build command
+  command = "npm run build"
+
+  # build 後に公開するディレクトリ
+  publish = "build"
